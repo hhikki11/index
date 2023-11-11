@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e6e6e6;
+    font-family: "Anonymous Pro", sans-serif;
+}
+
+h1 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 56px;
+}
+
+h2 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 32px;
+    margin: 40px 0;
+}
+.content_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    column-gap: 30px;
+    row-gap: 22px;
+}
+
+.container {
+    display: inline-block;
+    display: flex;
+    width: 100%;
+    margin: 26px 0 0;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 72px;
+    max-width: 350px;
+    background: white;
+    border-radius: 12px;
+}
+
+.container__title {
+    padding: 32px 26px 10px 26px;
+}
+.container__text {
+    padding: 0 26px 32px 26px;
+}
+
+.content {
+    margin: 68px auto 26px;
+    display: block;
+    width: 90%;
+    max-width: 1290px;
+}
+.containerer {
+    display: inline-block;
+    margin: 40px;
+    font-size: 120px;
+    background-color: white;
+}
+h3 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 26px;
+}
+
+p {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 14px;
+}
+h1 {
+    background-color: white;
+}
+
+img {
+    max-width: 350px;
+    border-radius: 12px;
+    margin: 20px 30px 20px 20px 
+}
+.header {
+    flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  display: grid;
+  border-bottom: 1px solid #a1a6b4;
+  padding: 10px 140px 10px 380px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.list_ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+}
+.name_coll {
+    padding: 1px 1px 1px 90px;
+}
+
+.ustal {
+    color: #a1a6b4;
+}
+.footer {
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(22, 6, 34);
+    width: 100%;
+    border-bottom: 1px solid #a1a6b4;
+    padding: 10px 140px 10px 140px;
+    flex-direction: column;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 10px;
+}
+.ustal2 {
+    color: #a1a6b4;
+    text-align: center;
+}
+.drugoi_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: white 1px solid;
+    width: 100%;
+}
+.drugoi_div .listitem {
+    color: white;
+}
